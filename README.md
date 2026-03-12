@@ -1,4 +1,5 @@
 Wellcome to the Task Manager Application!
+
 I designed and implemented a fullstack application to help me manage my day-by-day tasks. 
 
 I decided to use Postgress for the tasks database, Java with Spring Boot for the backend and a classic HTML + CSS + JS union for the fronted. 
