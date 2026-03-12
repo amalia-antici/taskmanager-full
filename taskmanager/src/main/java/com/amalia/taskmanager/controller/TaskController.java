@@ -42,7 +42,7 @@ public class TaskController {
         return taskService.getTaskById(id).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
     }
 
-    //To be later implemented in frontend
+
     @PutMapping("/{id}")
     public ResponseEntity<TaskDTO> updateTask(@PathVariable Long id,@Valid @RequestBody TaskDTO updatedTask)
     {
