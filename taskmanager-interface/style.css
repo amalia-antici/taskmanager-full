@@ -1,0 +1,143 @@
+body {
+    font-size: medium;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+}
+
+.big_container {
+    display: flex;
+    min-height: 100vh;
+}
+.left_part{
+    flex: 2;
+    background-color: #CCD5AE;
+    padding: 30px;
+}
+
+.right_part{
+    flex: 1;    
+    display: flex;
+    flex-direction: column;
+    background-color: #E9EDC9;
+    padding: 30px;
+    gap: 40px
+}
+h1{
+    margin-top: 0;
+}
+
+.search input{
+    width: 800px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.addTask{
+    background-color: #faedcd;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.statistics{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color:#faedcd;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.addTask input{
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color:  #fefae0;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(126, 165, 233);
+    color:white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(100, 100, 213);
+}
+.tasks{
+    margin-bottom: 40px;
+}
+.tasks_completed{
+    margin-top: 40px;
+}
+
+.task_item{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.task_item {
+    background-color:  #faedcd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+
+.task_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.status_select {
+    padding: 5px;
+    background-color: #fefae0;
+}
+
+.task_title {
+    flex: 1;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+.delete_button {
+    background-color: #e74c3c;
+    width: 80px;
+}
+
+.delete_button:hover {
+    background-color: #c0392b;
+}
+
+
+.task_details {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.search input{
+    background-color:#fefae0 ;
+    border: 2px solid #d4a373;
+}
+
+.status_select{
+    border: 1px solid #ddd;
+}

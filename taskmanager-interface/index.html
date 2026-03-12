@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="taskicon.png">
+</head>
+
+<body>
+    <div class="big_container">
+
+        <div class="left_part">
+            <div class="search">
+                <input id="search_bar" oninput="searchTask()" placeholder="Search...">
+            </div>
+
+            <div class="tasks">
+                <h1>Your tasks:</h1>
+                <div id="tasks_container"></div>
+            </div>
+            <div class="tasks_completed">
+                <h1>Completed tasks:</h1>
+                <div id="completed_container"></div>
+            </div>
+        </div>
+
+        <div class="right_part">
+            <h1>Task Manager</h1>
+            <div class="addTask">   
+                <h2>Add Task</h2>
+                <input id="title" placeholder="Title">
+                <input id="description" placeholder="Description">
+                <input type="datetime-local" id="dueDate">
+                <button id="addTaskButton">Add Task</button>
+            </div>
+
+            <div class="statistics">
+                <h3>Statistics</h3>
+
+                <h4 id="totalTasks"></h4>
+                <div id="statsChart" style="width:90%;"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
