@@ -10,3 +10,5 @@ There is also provided a graphic for the user's statistics related to the status
 Even though for now I have some basic CRUD operations, I am looking forward to extend it so there will exist the posibility to create separated lists of tasks and to mark distinctively the tasks that are due in less than a day.
 
 Good luck at working!
+
+P.S.: Soon enough I will provide also a Docker file.
